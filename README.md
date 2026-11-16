@@ -30,9 +30,8 @@ serviço em **XML** do CPTEC/INPE (<https://servicos.cptec.inpe.br/XML/>).
 Pré-requisitos: Flutter SDK 3.19+, Dart 3.3+ e um emulador ou dispositivo.
 
 ```bash
-flutter create .
 flutter pub get
-flutter run
+flutter run # rode flutter run -d (id do dispositivo) se quiser especificar aonde vai rodar
 flutter test
 ```
 
